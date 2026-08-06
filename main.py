@@ -133,7 +133,10 @@ async def enviar_pergunta(context):
 
     if partida["ativa"]:
         await finalizar_pergunta(context)
-        async def finalizar_pergunta(context):
+
+
+
+async def finalizar_pergunta(context):
 
     pergunta = partida["perguntas"][partida["numero"]]
 
