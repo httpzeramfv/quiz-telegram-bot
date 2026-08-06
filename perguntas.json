@@ -33,6 +33,16 @@
         "correta": 2
       },
       {
+        "pergunta": "Qual animal é conhecido como rei da selva?",
+        "opcoes": [
+          "Tigre",
+          "Leão",
+          "Elefante",
+          "Urso"
+        ],
+        "correta": 1
+      },
+      {
         "pergunta": "Quantos jogadores cada time possui em campo no futebol?",
         "opcoes": [
           "9",
@@ -41,16 +51,6 @@
           "12"
         ],
         "correta": 2
-      },
-      {
-        "pergunta": "Quem é conhecido como Rei do Futebol?",
-        "opcoes": [
-          "Pelé",
-          "Maradona",
-          "Romário",
-          "Zico"
-        ],
-        "correta": 0
       }
     ]
   },
@@ -58,222 +58,164 @@
     "categoria": "Filmes e Séries",
     "perguntas": [
       {
-        "pergunta": "Qual personagem é o protagonista da saga Harry Potter?",
+        "pergunta": "Qual série acompanha a família Shelby?",
         "opcoes": [
-          "Ron Weasley",
-          "Harry Potter",
-          "Draco Malfoy",
+          "Vikings",
+          "Peaky Blinders",
+          "Reacher",
+          "Friends"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quem é o protagonista de Harry Potter?",
+        "opcoes": [
+          "Ron",
+          "Harry",
+          "Draco",
           "Hagrid"
         ],
         "correta": 1
       },
       {
-        "pergunta": "Em qual filme aparece o personagem Darth Vader?",
+        "pergunta": "Qual personagem pertence ao universo Marvel?",
         "opcoes": [
-          "Star Wars",
-          "Avatar",
-          "Matrix",
-          "Titanic"
+          "Homem de Ferro",
+          "Batman",
+          "Superman",
+          "Coringa"
         ],
         "correta": 0
       },
+      {
+        "pergunta": "Em qual filme aparece Darth Vader?",
+        "opcoes": [
+          "Star Wars",
+          "Avatar",
+          "Titanic",
+          "Matrix"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual personagem é conhecido por usar um escudo com estrela?",
+        "opcoes": [
+          "Thor",
+          "Hulk",
+          "Capitão América",
+          "Flash"
+        ],
+        "correta": 2
+      }
+    ]
+  }[
+  {
+    "categoria": "Conhecimentos Gerais",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "opcoes": [
+          "Terra",
+          "Marte",
+          "Júpiter",
+          "Saturno"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é a capital do Brasil?",
+        "opcoes": [
+          "São Paulo",
+          "Brasília",
+          "Rio de Janeiro",
+          "Salvador"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é o maior oceano do planeta?",
+        "opcoes": [
+          "Atlântico",
+          "Índico",
+          "Pacífico",
+          "Ártico"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual animal é conhecido como rei da selva?",
+        "opcoes": [
+          "Tigre",
+          "Leão",
+          "Elefante",
+          "Urso"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quantos jogadores cada time possui em campo no futebol?",
+        "opcoes": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  {
+    "categoria": "Filmes e Séries",
+    "perguntas": [
       {
         "pergunta": "Qual série acompanha a família Shelby?",
         "opcoes": [
           "Vikings",
           "Peaky Blinders",
-          "The Last Kingdom",
-          "Reacher"
+          "Reacher",
+          "Friends"
         ],
         "correta": 1
       },
       {
-        "pergunta": "Qual personagem usa um escudo com uma estrela?",
+        "pergunta": "Quem é o protagonista de Harry Potter?",
+        "opcoes": [
+          "Ron",
+          "Harry",
+          "Draco",
+          "Hagrid"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual personagem pertence ao universo Marvel?",
         "opcoes": [
           "Homem de Ferro",
-          "Thor",
-          "Capitão América",
-          "Hulk"
+          "Batman",
+          "Superman",
+          "Coringa"
         ],
-        "correta": 2
+        "correta": 0
       },
       {
-        "pergunta": "Qual filme tem o personagem Jack Sparrow?",
+        "pergunta": "Em qual filme aparece Darth Vader?",
         "opcoes": [
-          "Piratas do Caribe",
-          "Gladiador",
+          "Star Wars",
           "Avatar",
-          "Jumanji"
-        ],
-        "correta": 0
-      }
-    ]
-  },
-  {
-    "categoria": "Ciência",
-    "perguntas": [
-      {
-        "pergunta": "Qual planeta é conhecido como planeta vermelho?",
-        "opcoes": [
-          "Marte",
-          "Vênus",
-          "Saturno",
-          "Mercúrio"
+          "Titanic",
+          "Matrix"
         ],
         "correta": 0
       },
       {
-        "pergunta": "Qual órgão bombeia sangue pelo corpo?",
+        "pergunta": "Qual personagem é conhecido por usar um escudo com estrela?",
         "opcoes": [
-          "Pulmão",
-          "Coração",
-          "Fígado",
-          "Rim"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Qual é a fórmula química da água?",
-        "opcoes": [
-          "CO2",
-          "O2",
-          "H2O",
-          "NaCl"
-        ],
-        "correta": 2
-      },
-      {
-        "pergunta": "Quantos ossos aproximadamente possui o corpo humano adulto?",
-        "opcoes": [
-          "106",
-          "206",
-          "306",
-          "406"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Qual é a estrela do nosso Sistema Solar?",
-        "opcoes": [
-          "Lua",
-          "Terra",
-          "Sol",
-          "Marte"
+          "Thor",
+          "Hulk",
+          "Capitão América",
+          "Flash"
         ],
         "correta": 2
       }
     ]
   }
-]
-[
-  {
-    "categoria": "História",
-    "perguntas": [
-      {
-        "pergunta": "Quem foi o primeiro imperador do Brasil?",
-        "opcoes": [
-          "Dom Pedro I",
-          "Dom Pedro II",
-          "Getúlio Vargas",
-          "Tiradentes"
-        ],
-        "correta": 0
-      },
-      {
-        "pergunta": "Em que ano o Brasil foi descoberto pelos portugueses?",
-        "opcoes": [
-          "1492",
-          "1500",
-          "1600",
-          "1700"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Quem foi Albert Einstein?",
-        "opcoes": [
-          "Pintor",
-          "Músico",
-          "Físico",
-          "Escritor"
-        ],
-        "correta": 2
-      },
-      {
-        "pergunta": "Qual civilização construiu as pirâmides do Egito?",
-        "opcoes": [
-          "Romanos",
-          "Egípcios",
-          "Gregos",
-          "Maias"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Qual país sediou a primeira Copa do Mundo?",
-        "opcoes": [
-          "Brasil",
-          "Argentina",
-          "Uruguai",
-          "França"
-        ],
-        "correta": 2
-      }
-    ]
-  },
-  {
-    "categoria": "Tecnologia",
-    "perguntas": [
-      {
-        "pergunta": "O que significa CPU?",
-        "opcoes": [
-          "Unidade Central de Processamento",
-          "Controle Principal Universal",
-          "Computador Pessoal Único",
-          "Central de Programas"
-        ],
-        "correta": 0
-      },
-      {
-        "pergunta": "Qual empresa criou o sistema Android?",
-        "opcoes": [
-          "Apple",
-          "Google",
-          "Microsoft",
-          "Samsung"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Qual destes é um navegador de internet?",
-        "opcoes": [
-          "Chrome",
-          "Excel",
-          "Word",
-          "Photoshop"
-        ],
-        "correta": 0
-      },
-      {
-        "pergunta": "Qual empresa fabrica o iPhone?",
-        "opcoes": [
-          "Google",
-          "Apple",
-          "Sony",
-          "Intel"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Qual é a função principal da memória RAM?",
-        "opcoes": [
-          "Armazenar temporariamente dados",
-          "Resfriar o computador",
-          "Aumentar o tamanho da tela",
-          "Produzir energia"
-        ],
-        "correta": 0
-      }
-    ]
-  }
-]
