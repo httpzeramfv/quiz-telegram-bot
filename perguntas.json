@@ -1,0 +1,17 @@
+[
+  {
+    "categoria": "Conhecimentos Gerais",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "opcoes": [
+          "Terra",
+          "Marte",
+          "Júpiter",
+          "Saturno"
+        ],
+        "correta": 2
+      }
+    ]
+  }
+]
