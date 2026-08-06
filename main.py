@@ -8,7 +8,7 @@ from telegram.ext import (
     Application,
     CommandHandler,
     CallbackQueryHandler,
-    ContextTypes,
+    ContextTypes
 )
 
 
@@ -61,17 +61,15 @@ def carregar_perguntas():
         []
     )
 
-    perguntas = []
+    lista = []
 
     for categoria in banco:
 
         for pergunta in categoria["perguntas"]:
 
-            pergunta["categoria"] = categoria["categoria"]
+            lista.append(pergunta)
 
-            perguntas.append(pergunta)
-
-    return perguntas
+    return lista
 
 
 
@@ -81,23 +79,13 @@ def carregar_ranking():
         ARQUIVO_RANKING,
         {}
     )
-
-
-
-def salvar_ranking(dados):
-
-    salvar_json(
-        ARQUIVO_RANKING,
-        dados
-    )
-
-
-
-async def enviar_pergunta(context):
+    async def enviar_pergunta(context):
 
     pergunta = partida["perguntas"][partida["numero"]]
 
+
     botoes = []
+
 
     for i, opcao in enumerate(pergunta["opcoes"]):
 
@@ -114,7 +102,7 @@ async def enviar_pergunta(context):
     texto = (
         f"🧠 Pergunta {partida['numero']+1}/{TOTAL_PERGUNTAS}\n\n"
         f"{pergunta['pergunta']}\n\n"
-        f"⏱ Tempo: {TEMPO_RESPOSTA}s"
+        f"⏱ Tempo: {TEMPO_RESPOSTA} segundos"
     )
 
 
@@ -132,7 +120,10 @@ async def enviar_pergunta(context):
 
 
     if partida["ativa"]:
+
         await finalizar_pergunta(context)
+
+
 
 
 
@@ -140,39 +131,8 @@ async def finalizar_pergunta(context):
 
     pergunta = partida["perguntas"][partida["numero"]]
 
-    contagem = [0, 0, 0, 0]
-
-
-    for voto in partida["votos"].values():
-        contagem[voto] += 1
-
-
-    texto = "⏰ Tempo encerrado!\n\n📊 Resultado:\n\n"
-
-
-    for i, total in enumerate(contagem):
-
-        texto += (
-            f"{chr(65+i)}) "
-            f"{pergunta['opcoes'][i]} "
-            f"- {total} votos\n"
-        )
-
 
     correta = pergunta["correta"]
-
-
-    texto += (
-        f"\n✅ Resposta correta:\n"
-        f"{chr(65+correta)}) "
-        f"{pergunta['opcoes'][correta]}"
-    )
-
-
-    await context.bot.send_message(
-        chat_id=partida["chat_id"],
-        text=texto
-    )
 
 
     for usuario, resposta in partida["votos"].items():
@@ -180,10 +140,26 @@ async def finalizar_pergunta(context):
         if resposta == correta:
 
             if usuario not in partida["jogadores"]:
+
                 partida["jogadores"][usuario] = 0
 
 
             partida["jogadores"][usuario] += 10
+
+
+
+    resultado = (
+        "⏰ Tempo encerrado!\n\n"
+        f"✅ Resposta correta:\n"
+        f"{chr(65+correta)}) "
+        f"{pergunta['opcoes'][correta]}"
+    )
+
+
+    await context.bot.send_message(
+        chat_id=partida["chat_id"],
+        text=resultado
+    )
 
 
     partida["numero"] += 1
@@ -206,76 +182,31 @@ async def receber_voto(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
 
 
-    try:
-
-        usuario = query.from_user.id
+    usuario = query.from_user.id
 
 
-        if usuario in partida["votos"]:
-
-            await query.answer(
-                "Você já votou!",
-                show_alert=True
-            )
-
-            return
-
-
-        escolha = int(
-            query.data.split("_")[1]
-        )
-
-
-        partida["votos"][usuario] = escolha
-
+    if usuario in partida["votos"]:
 
         await query.answer(
-            "✅ Voto registrado!"
-        )
-
-
-        contagem = [0, 0, 0, 0]
-
-
-        for voto in partida["votos"].values():
-
-            contagem[voto] += 1
-
-
-        texto = "📊 Votos atuais:\n\n"
-
-
-        for i, total in enumerate(contagem):
-
-            texto += (
-                f"{chr(65+i)}) {total} votos\n"
-            )
-
-
-        await context.bot.send_message(
-            chat_id=query.message.chat.id,
-            text=texto
-        )
-
-
-    except Exception as erro:
-
-        print(
-            "ERRO NO VOTO:",
-            erro
-        )
-
-
-        await query.answer(
-            "Erro ao registrar voto",
+            "Você já votou!",
             show_alert=True
         )
 
+        return
 
 
+    escolha = int(
+        query.data.split("_")[1]
+    )
 
 
-async def finalizar_quiz(context):
+    partida["votos"][usuario] = escolha
+
+
+    await query.answer(
+        "✅ Voto registrado!"
+    )
+    async def finalizar_quiz(context):
 
     ranking = carregar_ranking()
 
@@ -316,7 +247,10 @@ async def finalizar_quiz(context):
         ranking[str(usuario)]["pontos"] += pontos
 
 
-    salvar_ranking(ranking)
+    salvar_json(
+        ARQUIVO_RANKING,
+        ranking
+    )
 
 
     await context.bot.send_message(
@@ -326,7 +260,12 @@ async def finalizar_quiz(context):
 
 
     partida["ativa"] = False
-    async def quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
+
+
+
+
+async def quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if partida["ativa"]:
 
@@ -337,35 +276,33 @@ async def finalizar_quiz(context):
         return
 
 
-    perguntas = carregar_perguntas()
+    banco = carregar_perguntas()
 
 
-    if len(perguntas) < TOTAL_PERGUNTAS:
+    if len(banco) < TOTAL_PERGUNTAS:
 
         await update.message.reply_text(
-            "❌ Ainda não existem 15 perguntas cadastradas."
+            "❌ Cadastre pelo menos 15 perguntas."
         )
 
         return
 
 
     partida["ativa"] = True
+
     partida["chat_id"] = update.message.chat.id
 
     partida["perguntas"] = random.sample(
-        perguntas,
+        banco,
         TOTAL_PERGUNTAS
     )
 
     partida["numero"] = 0
-    partida["votos"] = {}
     partida["jogadores"] = {}
 
 
     await update.message.reply_text(
-        "🎮 QUIZ INICIADO!\n\n"
-        "🧠 15 perguntas\n"
-        "⏱ 15 segundos cada"
+        "🎮 Quiz iniciado!"
     )
 
 
@@ -377,38 +314,14 @@ async def finalizar_quiz(context):
 
 async def parar(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
-    if not partida["ativa"]:
-
-        await update.message.reply_text(
-            "ℹ️ Não existe quiz em andamento."
-        )
-
-        return
-
-
     partida["ativa"] = False
-    partida["perguntas"] = []
+    partida["numero"] = 0
     partida["votos"] = {}
     partida["jogadores"] = {}
-    partida["numero"] = 0
 
 
     await update.message.reply_text(
         "🛑 Quiz encerrado."
-    )
-
-
-
-
-
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-
-    await update.message.reply_text(
-        "🎮 Bem-vindo ao Quiz!\n\n"
-        "Comandos:\n"
-        "/quiz - iniciar\n"
-        "/ranking - ranking\n"
-        "/parar - encerrar"
     )
 
 
@@ -429,6 +342,9 @@ async def ranking(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
 
+    texto = "🏆 RANKING\n\n"
+
+
     lista = sorted(
         dados.items(),
         key=lambda x: x[1]["pontos"],
@@ -436,15 +352,11 @@ async def ranking(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
-    texto = "🏆 RANKING SEMANAL\n\n"
-
-
     for posicao, (usuario, info) in enumerate(lista[:10], 1):
 
         texto += (
-            f"{posicao}º - "
-            f"Jogador {usuario} "
-            f"- {info['pontos']} pts\n"
+            f"{posicao}º Jogador {usuario} - "
+            f"{info['pontos']} pts\n"
         )
 
 
@@ -463,14 +375,6 @@ def main():
         .builder()
         .token(TOKEN)
         .build()
-    )
-
-
-    app.add_handler(
-        CommandHandler(
-            "start",
-            start
-        )
     )
 
 
@@ -506,7 +410,7 @@ def main():
 
 
     print(
-        "Bot de quiz iniciado!"
+        "Bot iniciado!"
     )
 
 
