@@ -11,6 +11,268 @@
           "Saturno"
         ],
         "correta": 2
+      },
+      {
+        "pergunta": "Qual é a capital do Brasil?",
+        "opcoes": [
+          "São Paulo",
+          "Brasília",
+          "Rio de Janeiro",
+          "Salvador"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é o maior oceano do planeta?",
+        "opcoes": [
+          "Atlântico",
+          "Índico",
+          "Pacífico",
+          "Ártico"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quantos jogadores cada time possui em campo no futebol?",
+        "opcoes": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quem é conhecido como Rei do Futebol?",
+        "opcoes": [
+          "Pelé",
+          "Maradona",
+          "Romário",
+          "Zico"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  {
+    "categoria": "Filmes e Séries",
+    "perguntas": [
+      {
+        "pergunta": "Qual personagem é o protagonista da saga Harry Potter?",
+        "opcoes": [
+          "Ron Weasley",
+          "Harry Potter",
+          "Draco Malfoy",
+          "Hagrid"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Em qual filme aparece o personagem Darth Vader?",
+        "opcoes": [
+          "Star Wars",
+          "Avatar",
+          "Matrix",
+          "Titanic"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual série acompanha a família Shelby?",
+        "opcoes": [
+          "Vikings",
+          "Peaky Blinders",
+          "The Last Kingdom",
+          "Reacher"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual personagem usa um escudo com uma estrela?",
+        "opcoes": [
+          "Homem de Ferro",
+          "Thor",
+          "Capitão América",
+          "Hulk"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual filme tem o personagem Jack Sparrow?",
+        "opcoes": [
+          "Piratas do Caribe",
+          "Gladiador",
+          "Avatar",
+          "Jumanji"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  {
+    "categoria": "Ciência",
+    "perguntas": [
+      {
+        "pergunta": "Qual planeta é conhecido como planeta vermelho?",
+        "opcoes": [
+          "Marte",
+          "Vênus",
+          "Saturno",
+          "Mercúrio"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual órgão bombeia sangue pelo corpo?",
+        "opcoes": [
+          "Pulmão",
+          "Coração",
+          "Fígado",
+          "Rim"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é a fórmula química da água?",
+        "opcoes": [
+          "CO2",
+          "O2",
+          "H2O",
+          "NaCl"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quantos ossos aproximadamente possui o corpo humano adulto?",
+        "opcoes": [
+          "106",
+          "206",
+          "306",
+          "406"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é a estrela do nosso Sistema Solar?",
+        "opcoes": [
+          "Lua",
+          "Terra",
+          "Sol",
+          "Marte"
+        ],
+        "correta": 2
+      }
+    ]
+  }
+]
+[
+  {
+    "categoria": "História",
+    "perguntas": [
+      {
+        "pergunta": "Quem foi o primeiro imperador do Brasil?",
+        "opcoes": [
+          "Dom Pedro I",
+          "Dom Pedro II",
+          "Getúlio Vargas",
+          "Tiradentes"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Em que ano o Brasil foi descoberto pelos portugueses?",
+        "opcoes": [
+          "1492",
+          "1500",
+          "1600",
+          "1700"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quem foi Albert Einstein?",
+        "opcoes": [
+          "Pintor",
+          "Músico",
+          "Físico",
+          "Escritor"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual civilização construiu as pirâmides do Egito?",
+        "opcoes": [
+          "Romanos",
+          "Egípcios",
+          "Gregos",
+          "Maias"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual país sediou a primeira Copa do Mundo?",
+        "opcoes": [
+          "Brasil",
+          "Argentina",
+          "Uruguai",
+          "França"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  {
+    "categoria": "Tecnologia",
+    "perguntas": [
+      {
+        "pergunta": "O que significa CPU?",
+        "opcoes": [
+          "Unidade Central de Processamento",
+          "Controle Principal Universal",
+          "Computador Pessoal Único",
+          "Central de Programas"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual empresa criou o sistema Android?",
+        "opcoes": [
+          "Apple",
+          "Google",
+          "Microsoft",
+          "Samsung"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual destes é um navegador de internet?",
+        "opcoes": [
+          "Chrome",
+          "Excel",
+          "Word",
+          "Photoshop"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual empresa fabrica o iPhone?",
+        "opcoes": [
+          "Google",
+          "Apple",
+          "Sony",
+          "Intel"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é a função principal da memória RAM?",
+        "opcoes": [
+          "Armazenar temporariamente dados",
+          "Resfriar o computador",
+          "Aumentar o tamanho da tela",
+          "Produzir energia"
+        ],
+        "correta": 0
       }
     ]
   }
