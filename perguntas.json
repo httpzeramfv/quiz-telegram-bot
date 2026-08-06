@@ -108,114 +108,96 @@
         "correta": 2
       }
     ]
-  }[
+  }
+  ,
   {
-    "categoria": "Conhecimentos Gerais",
+    "categoria": "Ciência e Tecnologia",
     "perguntas": [
       {
-        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "pergunta": "Qual planeta é conhecido como planeta vermelho?",
         "opcoes": [
-          "Terra",
           "Marte",
-          "Júpiter",
-          "Saturno"
+          "Vênus",
+          "Saturno",
+          "Mercúrio"
         ],
-        "correta": 2
+        "correta": 0
       },
       {
-        "pergunta": "Qual é a capital do Brasil?",
+        "pergunta": "Qual órgão bombeia sangue pelo corpo?",
         "opcoes": [
-          "São Paulo",
-          "Brasília",
-          "Rio de Janeiro",
-          "Salvador"
+          "Pulmão",
+          "Coração",
+          "Fígado",
+          "Rim"
         ],
         "correta": 1
       },
       {
-        "pergunta": "Qual é o maior oceano do planeta?",
+        "pergunta": "Qual é a fórmula química da água?",
         "opcoes": [
-          "Atlântico",
-          "Índico",
-          "Pacífico",
-          "Ártico"
+          "CO2",
+          "O2",
+          "H2O",
+          "NaCl"
         ],
         "correta": 2
       },
       {
-        "pergunta": "Qual animal é conhecido como rei da selva?",
+        "pergunta": "Qual empresa criou o Android?",
         "opcoes": [
-          "Tigre",
-          "Leão",
-          "Elefante",
-          "Urso"
+          "Apple",
+          "Google",
+          "Microsoft",
+          "Intel"
         ],
         "correta": 1
       },
       {
-        "pergunta": "Quantos jogadores cada time possui em campo no futebol?",
+        "pergunta": "O que significa CPU?",
         "opcoes": [
-          "9",
-          "10",
-          "11",
-          "12"
+          "Unidade Central de Processamento",
+          "Controle Principal Universal",
+          "Computador Pessoal Único",
+          "Central de Programas"
         ],
-        "correta": 2
+        "correta": 0
       }
     ]
   },
   {
-    "categoria": "Filmes e Séries",
+    "categoria": "História",
     "perguntas": [
       {
-        "pergunta": "Qual série acompanha a família Shelby?",
+        "pergunta": "Em que ano o Brasil foi descoberto pelos portugueses?",
         "opcoes": [
-          "Vikings",
-          "Peaky Blinders",
-          "Reacher",
-          "Friends"
+          "1492",
+          "1500",
+          "1600",
+          "1700"
         ],
         "correta": 1
       },
       {
-        "pergunta": "Quem é o protagonista de Harry Potter?",
+        "pergunta": "Quem foi o primeiro imperador do Brasil?",
         "opcoes": [
-          "Ron",
-          "Harry",
-          "Draco",
-          "Hagrid"
+          "Dom Pedro I",
+          "Dom Pedro II",
+          "Getúlio Vargas",
+          "Tiradentes"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual civilização construiu as pirâmides do Egito?",
+        "opcoes": [
+          "Romanos",
+          "Egípcios",
+          "Gregos",
+          "Maias"
         ],
         "correta": 1
-      },
-      {
-        "pergunta": "Qual personagem pertence ao universo Marvel?",
-        "opcoes": [
-          "Homem de Ferro",
-          "Batman",
-          "Superman",
-          "Coringa"
-        ],
-        "correta": 0
-      },
-      {
-        "pergunta": "Em qual filme aparece Darth Vader?",
-        "opcoes": [
-          "Star Wars",
-          "Avatar",
-          "Titanic",
-          "Matrix"
-        ],
-        "correta": 0
-      },
-      {
-        "pergunta": "Qual personagem é conhecido por usar um escudo com estrela?",
-        "opcoes": [
-          "Thor",
-          "Hulk",
-          "Capitão América",
-          "Flash"
-        ],
-        "correta": 2
       }
     ]
   }
+]
