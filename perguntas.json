@@ -1,0 +1,1142 @@
+[
+    {
+        "categoria": "🌎 Geografia",
+        "perguntas": [
+            {
+                "pergunta": "Qual é a capital do Canadá?",
+                "opcoes": [
+                    "Toronto",
+                    "Ottawa",
+                    "Vancouver",
+                    "Montreal"
+                ],
+                "correta": 1,
+                "emoji": "🇨🇦"
+            },
+            {
+                "pergunta": "Qual é o maior país do mundo em território?",
+                "opcoes": [
+                    "Brasil",
+                    "China",
+                    "Rússia",
+                    "Canadá"
+                ],
+                "correta": 2,
+                "emoji": "🌍"
+            },
+            {
+                "pergunta": "Em qual continente fica o Egito?",
+                "opcoes": [
+                    "Ásia",
+                    "África",
+                    "Europa",
+                    "Oceania"
+                ],
+                "correta": 1,
+                "emoji": "🏜️"
+            },
+            {
+                "pergunta": "Qual oceano banha a costa leste do Brasil?",
+                "opcoes": [
+                    "Pacífico",
+                    "Índico",
+                    "Atlântico",
+                    "Ártico"
+                ],
+                "correta": 2,
+                "emoji": "🌊"
+            },
+            {
+                "pergunta": "Qual é a capital da Austrália?",
+                "opcoes": [
+                    "Sydney",
+                    "Melbourne",
+                    "Canberra",
+                    "Perth"
+                ],
+                "correta": 2,
+                "emoji": "🇦🇺"
+            }
+        ]
+    },
+    {
+        "categoria": "⚽ Futebol",
+        "perguntas": [
+            {
+                "pergunta": "Qual seleção venceu a Copa do Mundo de 2002?",
+                "opcoes": [
+                    "Brasil",
+                    "Alemanha",
+                    "Argentina",
+                    "Itália"
+                ],
+                "correta": 0,
+                "emoji": "🏆"
+            },
+            {
+                "pergunta": "Quantos jogadores de cada time começam no campo?",
+                "opcoes": [
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "correta": 2,
+                "emoji": "⚽"
+            },
+            {
+                "pergunta": "Qual país sediou a Copa do Mundo de 2014?",
+                "opcoes": [
+                    "Brasil",
+                    "Rússia",
+                    "França",
+                    "México"
+                ],
+                "correta": 0,
+                "emoji": "🏟️"
+            },
+            {
+                "pergunta": "Qual cartão expulsa um jogador?",
+                "opcoes": [
+                    "Azul",
+                    "Amarelo",
+                    "Vermelho",
+                    "Verde"
+                ],
+                "correta": 2,
+                "emoji": "🟥"
+            },
+            {
+                "pergunta": "Qual posição protege o gol?",
+                "opcoes": [
+                    "Goleiro",
+                    "Atacante",
+                    "Zagueiro",
+                    "Meia"
+                ],
+                "correta": 0,
+                "emoji": "🧤"
+            }
+        ]
+    },
+    {
+        "categoria": "📚 História",
+        "perguntas": [
+            {
+                "pergunta": "Quem foi o primeiro imperador do Brasil?",
+                "opcoes": [
+                    "Dom Pedro I",
+                    "Dom Pedro II",
+                    "Getúlio Vargas",
+                    "Tiradentes"
+                ],
+                "correta": 0,
+                "emoji": "👑"
+            },
+            {
+                "pergunta": "Em que ano terminou a Segunda Guerra Mundial?",
+                "opcoes": [
+                    "1942",
+                    "1945",
+                    "1948",
+                    "1950"
+                ],
+                "correta": 1,
+                "emoji": "🕊️"
+            },
+            {
+                "pergunta": "Qual civilização construiu Machu Picchu?",
+                "opcoes": [
+                    "Maia",
+                    "Asteca",
+                    "Inca",
+                    "Romana"
+                ],
+                "correta": 2,
+                "emoji": "🏔️"
+            },
+            {
+                "pergunta": "Quem proclamou a Independência do Brasil?",
+                "opcoes": [
+                    "Tiradentes",
+                    "Dom Pedro I",
+                    "Dom Pedro II",
+                    "Deodoro da Fonseca"
+                ],
+                "correta": 1,
+                "emoji": "🇧🇷"
+            },
+            {
+                "pergunta": "Qual era o nome do famoso navio de Colombo?",
+                "opcoes": [
+                    "Santa Maria",
+                    "Titanic",
+                    "Mayflower",
+                    "Beagle"
+                ],
+                "correta": 0,
+                "emoji": "⛵"
+            }
+        ]
+    },
+    {
+        "categoria": "🧪 Ciências",
+        "perguntas": [
+            {
+                "pergunta": "Qual planeta é conhecido como Planeta Vermelho?",
+                "opcoes": [
+                    "Vênus",
+                    "Marte",
+                    "Júpiter",
+                    "Mercúrio"
+                ],
+                "correta": 1,
+                "emoji": "🔴"
+            },
+            {
+                "pergunta": "Qual é a fórmula da água?",
+                "opcoes": [
+                    "CO2",
+                    "O2",
+                    "H2O",
+                    "NaCl"
+                ],
+                "correta": 2,
+                "emoji": "💧"
+            },
+            {
+                "pergunta": "Qual órgão bombeia o sangue?",
+                "opcoes": [
+                    "Pulmão",
+                    "Fígado",
+                    "Coração",
+                    "Rim"
+                ],
+                "correta": 2,
+                "emoji": "❤️"
+            },
+            {
+                "pergunta": "Qual é o satélite natural da Terra?",
+                "opcoes": [
+                    "Marte",
+                    "Lua",
+                    "Sol",
+                    "Vênus"
+                ],
+                "correta": 1,
+                "emoji": "🌙"
+            },
+            {
+                "pergunta": "Qual força nos mantém no chão?",
+                "opcoes": [
+                    "Magnetismo",
+                    "Gravidade",
+                    "Atrito",
+                    "Pressão"
+                ],
+                "correta": 1,
+                "emoji": "🍎"
+            }
+        ]
+    },
+    {
+        "categoria": "🎬 Filmes",
+        "perguntas": [
+            {
+                "pergunta": "Quem é o Homem de Ferro?",
+                "opcoes": [
+                    "Tony Stark",
+                    "Peter Parker",
+                    "Bruce Wayne",
+                    "Clark Kent"
+                ],
+                "correta": 0,
+                "emoji": "🦾"
+            },
+            {
+                "pergunta": "Qual filme tem Jack Sparrow?",
+                "opcoes": [
+                    "Avatar",
+                    "Piratas do Caribe",
+                    "Matrix",
+                    "Gladiador"
+                ],
+                "correta": 1,
+                "emoji": "🏴‍☠️"
+            },
+            {
+                "pergunta": "Qual saga apresenta Hogwarts?",
+                "opcoes": [
+                    "Star Wars",
+                    "Harry Potter",
+                    "Jurassic Park",
+                    "Rocky"
+                ],
+                "correta": 1,
+                "emoji": "🪄"
+            },
+            {
+                "pergunta": "Qual personagem vive em Gotham?",
+                "opcoes": [
+                    "Superman",
+                    "Batman",
+                    "Homem-Aranha",
+                    "Thor"
+                ],
+                "correta": 1,
+                "emoji": "🦇"
+            },
+            {
+                "pergunta": "Qual filme tem o brinquedo Woody?",
+                "opcoes": [
+                    "Toy Story",
+                    "Shrek",
+                    "Frozen",
+                    "Cars"
+                ],
+                "correta": 0,
+                "emoji": "🤠"
+            }
+        ]
+    },
+    {
+        "categoria": "📺 Séries",
+        "perguntas": [
+            {
+                "pergunta": "Onde aparecem Eleven e Hopper?",
+                "opcoes": [
+                    "Friends",
+                    "Stranger Things",
+                    "The Office",
+                    "Lost"
+                ],
+                "correta": 1,
+                "emoji": "👾"
+            },
+            {
+                "pergunta": "Qual série acompanha a família Shelby?",
+                "opcoes": [
+                    "Peaky Blinders",
+                    "The Boys",
+                    "Dark",
+                    "Vikings"
+                ],
+                "correta": 0,
+                "emoji": "🎩"
+            },
+            {
+                "pergunta": "Onde aparece Walter White?",
+                "opcoes": [
+                    "Breaking Bad",
+                    "Reacher",
+                    "Suits",
+                    "Dexter"
+                ],
+                "correta": 0,
+                "emoji": "🧪"
+            },
+            {
+                "pergunta": "Qual série tem Jon Snow?",
+                "opcoes": [
+                    "Vikings",
+                    "Game of Thrones",
+                    "Lost",
+                    "The Office"
+                ],
+                "correta": 1,
+                "emoji": "⚔️"
+            },
+            {
+                "pergunta": "Qual série tem Michael Scott?",
+                "opcoes": [
+                    "Friends",
+                    "The Office",
+                    "Loki",
+                    "Dexter"
+                ],
+                "correta": 1,
+                "emoji": "📎"
+            }
+        ]
+    },
+    {
+        "categoria": "🎵 Música",
+        "perguntas": [
+            {
+                "pergunta": "Qual instrumento tem teclas pretas e brancas?",
+                "opcoes": [
+                    "Violão",
+                    "Piano",
+                    "Bateria",
+                    "Saxofone"
+                ],
+                "correta": 1,
+                "emoji": "🎹"
+            },
+            {
+                "pergunta": "Qual banda ficou famosa por Bohemian Rhapsody?",
+                "opcoes": [
+                    "Queen",
+                    "ABBA",
+                    "U2",
+                    "Kiss"
+                ],
+                "correta": 0,
+                "emoji": "🎤"
+            },
+            {
+                "pergunta": "Como se chama o conjunto de cinco linhas musicais?",
+                "opcoes": [
+                    "Pentagrama",
+                    "Alfabeto",
+                    "Diagrama",
+                    "Compasso"
+                ],
+                "correta": 0,
+                "emoji": "🎼"
+            },
+            {
+                "pergunta": "Qual instrumento normalmente tem seis cordas?",
+                "opcoes": [
+                    "Violão",
+                    "Flauta",
+                    "Piano",
+                    "Bateria"
+                ],
+                "correta": 0,
+                "emoji": "🎸"
+            },
+            {
+                "pergunta": "Quem conduz uma orquestra?",
+                "opcoes": [
+                    "Maestro",
+                    "DJ",
+                    "Produtor",
+                    "Locutor"
+                ],
+                "correta": 0,
+                "emoji": "🎻"
+            }
+        ]
+    },
+    {
+        "categoria": "🎮 Games",
+        "perguntas": [
+            {
+                "pergunta": "Qual é o mascote mais famoso da Nintendo?",
+                "opcoes": [
+                    "Mario",
+                    "Sonic",
+                    "Kratos",
+                    "Master Chief"
+                ],
+                "correta": 0,
+                "emoji": "🍄"
+            },
+            {
+                "pergunta": "No Minecraft, o que é usado para fazer uma mesa de trabalho?",
+                "opcoes": [
+                    "Madeira",
+                    "Diamante",
+                    "Ferro",
+                    "Obsidiana"
+                ],
+                "correta": 0,
+                "emoji": "⛏️"
+            },
+            {
+                "pergunta": "Qual jogo tem Summoner's Rift?",
+                "opcoes": [
+                    "League of Legends",
+                    "FIFA",
+                    "Minecraft",
+                    "Fortnite"
+                ],
+                "correta": 0,
+                "emoji": "🎮"
+            },
+            {
+                "pergunta": "Quem usa as Lâminas do Caos?",
+                "opcoes": [
+                    "Kratos",
+                    "Link",
+                    "Mario",
+                    "Geralt"
+                ],
+                "correta": 0,
+                "emoji": "⚔️"
+            },
+            {
+                "pergunta": "Qual empresa criou o PlayStation?",
+                "opcoes": [
+                    "Microsoft",
+                    "Sony",
+                    "Nintendo",
+                    "Sega"
+                ],
+                "correta": 1,
+                "emoji": "🎮"
+            }
+        ]
+    },
+    {
+        "categoria": "🚗 Carros",
+        "perguntas": [
+            {
+                "pergunta": "Qual marca produz o Mustang?",
+                "opcoes": [
+                    "Ford",
+                    "Chevrolet",
+                    "Toyota",
+                    "Honda"
+                ],
+                "correta": 0,
+                "emoji": "🐎"
+            },
+            {
+                "pergunta": "O que significa ABS?",
+                "opcoes": [
+                    "Freios antitravamento",
+                    "Aumento de bateria",
+                    "Assistência de direção",
+                    "Arrefecimento"
+                ],
+                "correta": 0,
+                "emoji": "🛞"
+            },
+            {
+                "pergunta": "Qual combustível é usado em motores diesel?",
+                "opcoes": [
+                    "Etanol",
+                    "Diesel",
+                    "Gás natural",
+                    "Querosene"
+                ],
+                "correta": 1,
+                "emoji": "⛽"
+            },
+            {
+                "pergunta": "Qual componente transmite força às rodas?",
+                "opcoes": [
+                    "Transmissão",
+                    "Radiador",
+                    "Bateria",
+                    "Filtro de ar"
+                ],
+                "correta": 0,
+                "emoji": "⚙️"
+            },
+            {
+                "pergunta": "O que mede o velocímetro?",
+                "opcoes": [
+                    "Temperatura",
+                    "Velocidade",
+                    "Combustível",
+                    "Pressão"
+                ],
+                "correta": 1,
+                "emoji": "🏎️"
+            }
+        ]
+    },
+    {
+        "categoria": "🇧🇷 Brasil",
+        "perguntas": [
+            {
+                "pergunta": "Qual é a capital do Brasil?",
+                "opcoes": [
+                    "Rio de Janeiro",
+                    "São Paulo",
+                    "Brasília",
+                    "Salvador"
+                ],
+                "correta": 2,
+                "emoji": "🇧🇷"
+            },
+            {
+                "pergunta": "Qual é o maior estado brasileiro em território?",
+                "opcoes": [
+                    "Amazonas",
+                    "Pará",
+                    "Mato Grosso",
+                    "Bahia"
+                ],
+                "correta": 0,
+                "emoji": "🌳"
+            },
+            {
+                "pergunta": "Qual cidade é conhecida como Cidade Maravilhosa?",
+                "opcoes": [
+                    "Recife",
+                    "Salvador",
+                    "Rio de Janeiro",
+                    "Curitiba"
+                ],
+                "correta": 2,
+                "emoji": "🏖️"
+            },
+            {
+                "pergunta": "Qual é a moeda oficial do Brasil?",
+                "opcoes": [
+                    "Peso",
+                    "Real",
+                    "Dólar",
+                    "Euro"
+                ],
+                "correta": 1,
+                "emoji": "💰"
+            },
+            {
+                "pergunta": "Qual é a maior região brasileira em extensão territorial?",
+                "opcoes": [
+                    "Norte",
+                    "Sul",
+                    "Sudeste",
+                    "Nordeste"
+                ],
+                "correta": 0,
+                "emoji": "🗺️"
+            }
+        ]
+    },
+    {
+        "categoria": "🐶 Animais",
+        "perguntas": [
+            {
+                "pergunta": "Qual é o maior animal terrestre?",
+                "opcoes": [
+                    "Elefante-africano",
+                    "Girafa",
+                    "Hipopótamo",
+                    "Rinoceronte"
+                ],
+                "correta": 0,
+                "emoji": "🐘"
+            },
+            {
+                "pergunta": "Qual animal é chamado de rei da selva?",
+                "opcoes": [
+                    "Tigre",
+                    "Leão",
+                    "Lobo",
+                    "Urso"
+                ],
+                "correta": 1,
+                "emoji": "🦁"
+            },
+            {
+                "pergunta": "Qual é o animal terrestre mais rápido?",
+                "opcoes": [
+                    "Cavalo",
+                    "Guepardo",
+                    "Leão",
+                    "Antílope"
+                ],
+                "correta": 1,
+                "emoji": "🐆"
+            },
+            {
+                "pergunta": "Qual animal produz lã?",
+                "opcoes": [
+                    "Ovelha",
+                    "Vaca",
+                    "Cavalo",
+                    "Porco"
+                ],
+                "correta": 0,
+                "emoji": "🐑"
+            },
+            {
+                "pergunta": "Qual mamífero é capaz de voar?",
+                "opcoes": [
+                    "Morcego",
+                    "Esquilo",
+                    "Macaco",
+                    "Coelho"
+                ],
+                "correta": 0,
+                "emoji": "🦇"
+            }
+        ]
+    },
+    {
+        "categoria": "💻 Tecnologia",
+        "perguntas": [
+            {
+                "pergunta": "Qual empresa criou o Windows?",
+                "opcoes": [
+                    "Apple",
+                    "Microsoft",
+                    "Google",
+                    "IBM"
+                ],
+                "correta": 1,
+                "emoji": "💻"
+            },
+            {
+                "pergunta": "Wi-Fi é uma tecnologia de quê?",
+                "opcoes": [
+                    "Rede sem fio",
+                    "Energia",
+                    "Bateria",
+                    "Programação"
+                ],
+                "correta": 0,
+                "emoji": "📶"
+            },
+            {
+                "pergunta": "Qual dispositivo armazena dados?",
+                "opcoes": [
+                    "SSD",
+                    "Mouse",
+                    "Teclado",
+                    "Monitor"
+                ],
+                "correta": 0,
+                "emoji": "💾"
+            },
+            {
+                "pergunta": "Qual empresa desenvolve o Android?",
+                "opcoes": [
+                    "Google",
+                    "Sony",
+                    "Intel",
+                    "Nokia"
+                ],
+                "correta": 0,
+                "emoji": "📱"
+            },
+            {
+                "pergunta": "Qual unidade mede armazenamento digital?",
+                "opcoes": [
+                    "Litro",
+                    "Byte",
+                    "Metro",
+                    "Watt"
+                ],
+                "correta": 1,
+                "emoji": "💾"
+            }
+        ]
+    },
+    {
+        "categoria": "🤯 Curiosidades",
+        "perguntas": [
+            {
+                "pergunta": "Quantos dias tem um ano comum?",
+                "opcoes": [
+                    "360",
+                    "365",
+                    "366",
+                    "370"
+                ],
+                "correta": 1,
+                "emoji": "📅"
+            },
+            {
+                "pergunta": "Quantos lados tem um hexágono?",
+                "opcoes": [
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                ],
+                "correta": 1,
+                "emoji": "🔷"
+            },
+            {
+                "pergunta": "Qual é o maior planeta do Sistema Solar?",
+                "opcoes": [
+                    "Terra",
+                    "Saturno",
+                    "Júpiter",
+                    "Netuno"
+                ],
+                "correta": 2,
+                "emoji": "🪐"
+            },
+            {
+                "pergunta": "Quantos minutos há em uma hora?",
+                "opcoes": [
+                    "30",
+                    "45",
+                    "60",
+                    "90"
+                ],
+                "correta": 2,
+                "emoji": "⏰"
+            },
+            {
+                "pergunta": "Qual animal é famoso por mudar de cor?",
+                "opcoes": [
+                    "Camaleão",
+                    "Cachorro",
+                    "Cavalo",
+                    "Panda"
+                ],
+                "correta": 0,
+                "emoji": "🦎"
+            }
+        ]
+    },
+    {
+        "categoria": "🍕 Culinária",
+        "perguntas": [
+            {
+                "pergunta": "Qual ingrediente é tradicional na pizza Margherita?",
+                "opcoes": [
+                    "Chocolate",
+                    "Tomate",
+                    "Banana",
+                    "Milho"
+                ],
+                "correta": 1,
+                "emoji": "🍕"
+            },
+            {
+                "pergunta": "De qual país vem o sushi?",
+                "opcoes": [
+                    "Itália",
+                    "Japão",
+                    "México",
+                    "Brasil"
+                ],
+                "correta": 1,
+                "emoji": "🍣"
+            },
+            {
+                "pergunta": "Qual alimento é feito principalmente de cacau?",
+                "opcoes": [
+                    "Chocolate",
+                    "Pão",
+                    "Queijo",
+                    "Arroz"
+                ],
+                "correta": 0,
+                "emoji": "🍫"
+            },
+            {
+                "pergunta": "Qual fruta é usada no guacamole?",
+                "opcoes": [
+                    "Abacate",
+                    "Morango",
+                    "Maçã",
+                    "Uva"
+                ],
+                "correta": 0,
+                "emoji": "🥑"
+            },
+            {
+                "pergunta": "O que faz o pão crescer em muitas receitas?",
+                "opcoes": [
+                    "Fermento",
+                    "Sal",
+                    "Pimenta",
+                    "Açúcar"
+                ],
+                "correta": 0,
+                "emoji": "🍞"
+            }
+        ]
+    },
+    {
+        "categoria": "🦸 Heróis",
+        "perguntas": [
+            {
+                "pergunta": "Qual herói usa um escudo com estrela?",
+                "opcoes": [
+                    "Thor",
+                    "Capitão América",
+                    "Hulk",
+                    "Flash"
+                ],
+                "correta": 1,
+                "emoji": "🛡️"
+            },
+            {
+                "pergunta": "Quem é o Homem-Aranha?",
+                "opcoes": [
+                    "Peter Parker",
+                    "Bruce Wayne",
+                    "Tony Stark",
+                    "Clark Kent"
+                ],
+                "correta": 0,
+                "emoji": "🕷️"
+            },
+            {
+                "pergunta": "Quem empunha o Mjolnir?",
+                "opcoes": [
+                    "Thor",
+                    "Batman",
+                    "Aquaman",
+                    "Flash"
+                ],
+                "correta": 0,
+                "emoji": "🔨"
+            },
+            {
+                "pergunta": "Qual herói é associado a Metrópolis?",
+                "opcoes": [
+                    "Batman",
+                    "Superman",
+                    "Homem de Ferro",
+                    "Deadpool"
+                ],
+                "correta": 1,
+                "emoji": "🦸"
+            },
+            {
+                "pergunta": "Quem fica verde quando se irrita?",
+                "opcoes": [
+                    "Hulk",
+                    "Flash",
+                    "Groot",
+                    "Aquaman"
+                ],
+                "correta": 0,
+                "emoji": "💚"
+            }
+        ]
+    },
+    {
+        "categoria": "🧩 Lógica",
+        "perguntas": [
+            {
+                "pergunta": "Se você tem 3 maçãs e ganha 2, quantas tem?",
+                "opcoes": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "correta": 1,
+                "emoji": "🍎"
+            },
+            {
+                "pergunta": "Qual número vem depois de 19?",
+                "opcoes": [
+                    "18",
+                    "20",
+                    "21",
+                    "29"
+                ],
+                "correta": 1,
+                "emoji": "🔢"
+            },
+            {
+                "pergunta": "Quantos lados tem um triângulo?",
+                "opcoes": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "correta": 1,
+                "emoji": "🔺"
+            },
+            {
+                "pergunta": "Se hoje é segunda, amanhã será?",
+                "opcoes": [
+                    "Domingo",
+                    "Terça",
+                    "Quarta",
+                    "Sexta"
+                ],
+                "correta": 1,
+                "emoji": "📆"
+            },
+            {
+                "pergunta": "Qual é o dobro de 8?",
+                "opcoes": [
+                    "12",
+                    "14",
+                    "16",
+                    "18"
+                ],
+                "correta": 2,
+                "emoji": "🧮"
+            }
+        ]
+    },
+    {
+        "categoria": "🌌 Espaço",
+        "perguntas": [
+            {
+                "pergunta": "Qual estrela está no centro do Sistema Solar?",
+                "opcoes": [
+                    "Lua",
+                    "Sol",
+                    "Sirius",
+                    "Polaris"
+                ],
+                "correta": 1,
+                "emoji": "☀️"
+            },
+            {
+                "pergunta": "Qual planeta é famoso pelos anéis?",
+                "opcoes": [
+                    "Marte",
+                    "Saturno",
+                    "Vênus",
+                    "Mercúrio"
+                ],
+                "correta": 1,
+                "emoji": "🪐"
+            },
+            {
+                "pergunta": "Como se chama nossa galáxia?",
+                "opcoes": [
+                    "Andrômeda",
+                    "Via Láctea",
+                    "Órion",
+                    "Sirius"
+                ],
+                "correta": 1,
+                "emoji": "🌌"
+            },
+            {
+                "pergunta": "Qual planeta é o mais próximo do Sol?",
+                "opcoes": [
+                    "Mercúrio",
+                    "Terra",
+                    "Marte",
+                    "Júpiter"
+                ],
+                "correta": 0,
+                "emoji": "☀️"
+            },
+            {
+                "pergunta": "O que é um buraco negro?",
+                "opcoes": [
+                    "Estrela congelada",
+                    "Região de gravidade extrema",
+                    "Planeta vazio",
+                    "Lua"
+                ],
+                "correta": 1,
+                "emoji": "🕳️"
+            }
+        ]
+    },
+    {
+        "categoria": "🏀 Esportes",
+        "perguntas": [
+            {
+                "pergunta": "Quantos jogadores de um time de basquete ficam em quadra?",
+                "opcoes": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "correta": 1,
+                "emoji": "🏀"
+            },
+            {
+                "pergunta": "Qual esporte usa raquete e peteca?",
+                "opcoes": [
+                    "Tênis",
+                    "Badminton",
+                    "Golfe",
+                    "Vôlei"
+                ],
+                "correta": 1,
+                "emoji": "🏸"
+            },
+            {
+                "pergunta": "Em qual esporte existe touchdown?",
+                "opcoes": [
+                    "Futebol americano",
+                    "Tênis",
+                    "Basquete",
+                    "Natação"
+                ],
+                "correta": 0,
+                "emoji": "🏈"
+            },
+            {
+                "pergunta": "Qual esporte é praticado em piscina?",
+                "opcoes": [
+                    "Natação",
+                    "Ciclismo",
+                    "Judô",
+                    "Boxe"
+                ],
+                "correta": 0,
+                "emoji": "🏊"
+            },
+            {
+                "pergunta": "Em qual esporte existe hole in one?",
+                "opcoes": [
+                    "Golfe",
+                    "Tênis",
+                    "Futebol",
+                    "Rugby"
+                ],
+                "correta": 0,
+                "emoji": "⛳"
+            }
+        ]
+    },
+    {
+        "categoria": "🗺️ Mundo",
+        "perguntas": [
+            {
+                "pergunta": "Qual país tem formato comparado a uma bota?",
+                "opcoes": [
+                    "Itália",
+                    "Espanha",
+                    "Grécia",
+                    "Chile"
+                ],
+                "correta": 0,
+                "emoji": "🇮🇹"
+            },
+            {
+                "pergunta": "Qual língua é oficial no Brasil?",
+                "opcoes": [
+                    "Espanhol",
+                    "Português",
+                    "Inglês",
+                    "Francês"
+                ],
+                "correta": 1,
+                "emoji": "🗣️"
+            },
+            {
+                "pergunta": "Qual país tem a Torre Eiffel?",
+                "opcoes": [
+                    "Itália",
+                    "França",
+                    "Inglaterra",
+                    "Bélgica"
+                ],
+                "correta": 1,
+                "emoji": "🗼"
+            },
+            {
+                "pergunta": "Qual país tem Tóquio como capital?",
+                "opcoes": [
+                    "China",
+                    "Japão",
+                    "Coreia do Sul",
+                    "Tailândia"
+                ],
+                "correta": 1,
+                "emoji": "🇯🇵"
+            },
+            {
+                "pergunta": "Em qual continente fica a maior parte do Saara?",
+                "opcoes": [
+                    "África",
+                    "Europa",
+                    "Ásia",
+                    "América"
+                ],
+                "correta": 0,
+                "emoji": "🏜️"
+            }
+        ]
+    }
+]
